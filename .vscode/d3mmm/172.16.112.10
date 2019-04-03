@@ -1,0 +1,29 @@
+03/07-22:51:55.797145  [**] [1:384:7] PROTOCOL-ICMP PING [**] [Classification: Misc activity] [Priority: 3] {ICMP} 202.77.162.213 -> 172.16.112.10
+03/07-23:15:10.023115  [**] [1:16447:3] RPC portmap Solaris sadmin udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:56254 -> 172.16.112.10:111
+03/07-23:15:10.023115  [**] [1:12626:4] RPC portmap Solaris sadmin port query udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:56254 -> 172.16.112.10:111
+03/07-23:15:10.023115  [**] [1:585:13] RPC portmap sadmind request UDP [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:56254 -> 172.16.112.10:111
+03/07-23:15:10.026586  [**] [1:1957:13] RPC sadmind UDP PING [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 202.77.162.213:56256 -> 172.16.112.10:32774
+03/07-23:34:36.436981  [**] [1:16447:3] RPC portmap Solaris sadmin udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60517 -> 172.16.112.10:111
+03/07-23:34:36.436981  [**] [1:12626:4] RPC portmap Solaris sadmin port query udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60517 -> 172.16.112.10:111
+03/07-23:34:36.436981  [**] [1:585:13] RPC portmap sadmind request UDP [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60517 -> 172.16.112.10:111
+03/07-23:34:36.446841  [**] [1:2256:8] RPC sadmind query with root credentials attempt UDP [**] [Classification: Misc Attack] [Priority: 2] {UDP} 202.77.162.213:60519 -> 172.16.112.10:32774
+03/07-23:34:36.446841  [**] [1:12628:3] RPC portmap Solaris sadmin port query udp portmapper sadmin port query attempt [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60519 -> 172.16.112.10:32774
+03/07-23:34:36.446841  [**] [1:1911:17] RPC sadmind UDP NETMGT_PROC_SERVICE CLIENT_DOMAIN overflow attempt [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {UDP} 202.77.162.213:60519 -> 172.16.112.10:32774
+03/07-23:34:38.474587  [**] [1:16447:3] RPC portmap Solaris sadmin udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60522 -> 172.16.112.10:111
+03/07-23:34:38.474587  [**] [1:12626:4] RPC portmap Solaris sadmin port query udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60522 -> 172.16.112.10:111
+03/07-23:34:38.474587  [**] [1:585:13] RPC portmap sadmind request UDP [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60522 -> 172.16.112.10:111
+03/07-23:34:38.484026  [**] [1:2256:8] RPC sadmind query with root credentials attempt UDP [**] [Classification: Misc Attack] [Priority: 2] {UDP} 202.77.162.213:60524 -> 172.16.112.10:32774
+03/07-23:34:38.484026  [**] [1:12628:3] RPC portmap Solaris sadmin port query udp portmapper sadmin port query attempt [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60524 -> 172.16.112.10:32774
+03/07-23:34:38.484026  [**] [1:1911:17] RPC sadmind UDP NETMGT_PROC_SERVICE CLIENT_DOMAIN overflow attempt [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {UDP} 202.77.162.213:60524 -> 172.16.112.10:32774
+03/07-23:34:44.666795  [**] [1:16447:3] RPC portmap Solaris sadmin udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60540 -> 172.16.112.10:111
+03/07-23:34:44.666795  [**] [1:12626:4] RPC portmap Solaris sadmin port query udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60540 -> 172.16.112.10:111
+03/07-23:34:44.666795  [**] [1:585:13] RPC portmap sadmind request UDP [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60540 -> 172.16.112.10:111
+03/07-23:34:44.676326  [**] [1:2256:8] RPC sadmind query with root credentials attempt UDP [**] [Classification: Misc Attack] [Priority: 2] {UDP} 202.77.162.213:60542 -> 172.16.112.10:32774
+03/07-23:34:44.676326  [**] [1:12628:3] RPC portmap Solaris sadmin port query udp portmapper sadmin port query attempt [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60542 -> 172.16.112.10:32774
+03/07-23:34:44.676326  [**] [1:1911:17] RPC sadmind UDP NETMGT_PROC_SERVICE CLIENT_DOMAIN overflow attempt [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {UDP} 202.77.162.213:60542 -> 172.16.112.10:32774
+03/07-23:34:46.704832  [**] [1:16447:3] RPC portmap Solaris sadmin udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60547 -> 172.16.112.10:111
+03/07-23:34:46.704832  [**] [1:12626:4] RPC portmap Solaris sadmin port query udp request [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60547 -> 172.16.112.10:111
+03/07-23:34:46.704832  [**] [1:585:13] RPC portmap sadmind request UDP [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60547 -> 172.16.112.10:111
+03/07-23:34:46.714261  [**] [1:2256:8] RPC sadmind query with root credentials attempt UDP [**] [Classification: Misc Attack] [Priority: 2] {UDP} 202.77.162.213:60549 -> 172.16.112.10:32774
+03/07-23:34:46.714261  [**] [1:12628:3] RPC portmap Solaris sadmin port query udp portmapper sadmin port query attempt [**] [Classification: Decode of an RPC Query] [Priority: 2] {UDP} 202.77.162.213:60549 -> 172.16.112.10:32774
+03/07-23:34:46.714261  [**] [1:1911:17] RPC sadmind UDP NETMGT_PROC_SERVICE CLIENT_DOMAIN overflow attempt [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {UDP} 202.77.162.213:60549 -> 172.16.112.10:32774
