@@ -1,0 +1,22 @@
+"""
+80. Remove Duplicates from Sorted Array II
+
+Given a sorted array nums, remove the duplicates in-place such 
+
+that duplicates appeared at most twice and return the new length.
+
+Do not allocate extra space for another array, you must do this 
+
+by modifying the input array in-place with O(1) extra memory.
+"""
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        nums_len = len(nums)
+        if nums_len < 2:
+            return nums_len
+        nums_cnt = 2
+        for nums_seq in range(2,nums_len):
+            if nums[nums_seq] != nums[nums_cnt-2] :
+                nums[nums_cnt] = nums[nums_seq]
+                nums_cnt += 1
+        return nums_cnt
